@@ -10,6 +10,7 @@ defmodule Sequence2.Application do
     children = [
       # Starts a worker by calling: Sequence2.Worker.start_link(arg)
       # {Sequence2.Worker, arg},
+      {Sequence2.Server, 123}
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
