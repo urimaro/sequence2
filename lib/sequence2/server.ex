@@ -1,4 +1,4 @@
-defmodule Sequence.Server do
+defmodule Sequence2.Server do
   use GenServer
 
   #####
