@@ -15,7 +15,7 @@ defmodule Sequence2.MixProject do
   def application do
     [
       extra_applications: [:logger],
-      mod: {Sequence2.Application, []}
+      mod: {Sequence2.Application, 456}
     ]
   end
 
