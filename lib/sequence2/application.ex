@@ -5,7 +5,7 @@ defmodule Sequence2.Application do
 
   use Application
 
-  def start(_type, initial_number) do
-    {:ok, _pid} = Sequence2.Supervisor.start_link(initial_number)
+  def start(_type, _args) do
+    {:ok, _pid} = Sequence2.Supervisor.start_link(Application.get_env(:sequence2, :initial_number))
   end
 end
