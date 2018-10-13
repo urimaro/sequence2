@@ -1,5 +1,5 @@
 %% coding: utf-8
-[{release,"sequence2","0.1.0","10.1",
+[{release,"sequence2","0.2.0","10.1",
           [{kernel,"6.1","./lib/kernel-6.1"},
            {stdlib,"3.6","./lib/stdlib-3.6"},
            {compiler,"7.2.5","./lib/compiler-7.2.5"},
@@ -12,7 +12,7 @@
            {providers,"1.7.0","./lib/providers-1.7.0"},
            {relx,"3.27.0","./lib/relx-3.27.0"},
            {exrm,"1.0.8","./lib/exrm-1.0.8"},
-           {sequence2,"0.1.0","./lib/sequence2-0.1.0"},
+           {sequence2,"0.2.0","./lib/sequence2-0.2.0"},
            {iex,"1.7.3","./lib/iex-1.7.3"},
            {sasl,"3.2.1","./lib/sasl-3.2.1"}],
           permanent}].
